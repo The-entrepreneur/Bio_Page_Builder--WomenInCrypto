@@ -2,16 +2,16 @@ import { NextRequest, NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-const ENCRYPTED_FILE = path.resolve(process.cwd(), 'newsletter_List_encrypted.txt');
+const NEWSLETTER_FILE = path.resolve(process.cwd(), 'newsletter_List.txt');
 
 export async function GET(req: NextRequest) {
   try {
-    const file = await fs.readFile(ENCRYPTED_FILE);
+    const file = await fs.readFile(NEWSLETTER_FILE);
     return new NextResponse(file, {
       status: 200,
       headers: {
-        'Content-Type': 'application/octet-stream',
-        'Content-Disposition': 'attachment; filename="newsletter_List_encrypted.txt"',
+        'Content-Type': 'text/plain',
+        'Content-Disposition': 'attachment; filename="newsletter_List.txt"',
       },
     });
   } catch (err) {
