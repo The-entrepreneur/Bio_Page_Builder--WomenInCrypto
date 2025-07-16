@@ -214,7 +214,7 @@ export default function Home() {
             }`}
           >
             <p>© 2025 Women in Crypto. Empowering the future of blockchain.</p>
-            <p className="mt-2">Built by Dev Work's Enterprise for the community</p>
+            <p className="mt-2">Built by Dero of Dev Work's Enterprise for the community</p>
           </motion.footer>
         </div>
       </div>

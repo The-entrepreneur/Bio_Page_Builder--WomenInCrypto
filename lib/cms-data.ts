@@ -2,9 +2,9 @@
 export const cmsData = {
   hero: {
     avatar: "https://ugc.production.linktr.ee/DytoegRJSyGYXbB3lVc6_1x3q7X02riP1PZ2s?io=true&size=avatar-v3_0",
-    title: "Women in Crypto-Currency",
+    title: "Women in Crypto",
     tagline: "Empowering Nigerian Women With Wealth and Knowledge",
-    bio: "Building the future of financial freedom through education, community, and innovation. Join thousands of women breaking barriers and making more money in crypto.",
+    bio: "Building the future of financial freedom through education, community, and innovation. Join hundreds of Nigerian women breaking barriers and making more money in crypto.",
     badge: "Community"
   },
   links: [
