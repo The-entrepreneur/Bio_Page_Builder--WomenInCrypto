@@ -13,7 +13,7 @@ export default function CanonicalHead() {
   }, []);
 
   // Fallback to main site if origin is not available
-  const canonicalUrl = `${origin || "https://womenincrypto.com"}${pathname}`;
+  const canonicalUrl = `${origin || "https://wic-community.vercel.app/"}${pathname}`;
 
   return <link rel="canonical" href={canonicalUrl} />;
 } 

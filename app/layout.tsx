@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Women in Crypto - Connect With Likeminded Women',
-  description: 'Empowering Nigerian Women make more money in crypto. Join our community of thousands breaking barriers in crypto through education, networking, and innovation.',
+  description: 'Empowering Nigerian Women. A platform for women and every supporter across all genders who seek to enhance their knowledge and education in the growing fields of cryptocurrency, blockchain ... Join our community of thousands breaking barriers in crypto through education, networking, and innovation.', 
   keywords: [
     'women in crypto Nigeria',
     'Nigerian blockchain community',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: 'Empowering Nigerian Women make more money in crypto',
     type: 'website',
     locale: 'en_US',
-    url: 'https://womenincrypto.com',
+    url: 'https://wic-community.vercel.app/',
     siteName: 'Women in Crypto Nigeria',
     images: [
       {
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'B9Jr09g2SL2yWIcVLIyWH9yM67WInqw1yYgtcZbnDks',
   },
 };
 
@@ -106,7 +106,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Women in Crypto Nigeria",
-              "url": "https://womenincrypto.com",
+              "url": "https://wic-community.vercel.app/",
               "logo": "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "sameAs": [
                 "https://www.facebook.com/p/Women-In-Cryptocurrency-100093488221438/?locale=eu_ES",
@@ -123,11 +123,11 @@ export default function RootLayout({
             {
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "url": "https://womenincrypto.com",
+              "url": "https://wic-community.vercel.app/",
               "name": "Women in Crypto Nigeria",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://womenincrypto.com/?s={search_term_string}",
+                "target": "https://wic-community.vercel.app//?s={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             }
